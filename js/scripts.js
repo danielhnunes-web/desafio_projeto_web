@@ -56,3 +56,23 @@ console.log('TESTE RELACIONAL', 10 <= 2)
 console.log('TESTE LÓGICO', (10 > 2) && (15 < 5))
 console.log('TESTE LÓGICO', (10 > 2) || (15 < 5))
 
+//TESTE LÓGICO
+
+let idade = 25
+
+if(idade >= 18){
+    console.log('Maior de idade')
+}
+else{
+    console.log('Menor de idade')
+}
+
+if (idade < 18){
+    console.log(`COM A IDADE DE ${idade}, NÃO É PERMITIDO POSSUIR CNH`)
+}else if(idade < 50){
+    console.log(`COM A IDADE DE ${idade}, 10 ANOS PARA RENOVAR`)
+}else if(idade < 70){
+    console.log(`COM A IDADE DE ${idade}, 5 ANOS PARA RENOVAR`)
+}else{
+    console.log(`COM A IDADE DE ${idade}, 3 ANOS PARA RENOVAR`)
+}
