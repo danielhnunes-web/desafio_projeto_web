@@ -76,17 +76,20 @@
 // }else{
 //     console.log(`COM A IDADE DE ${idade}, 3 ANOS PARA RENOVAR`)
 
+
+//ATIVIDADE LÓGICA DE PROGRAMAÇÃO
+
 // QUESTÃO 1
 
-    // let num1 = 5
-    // let num2 = 10
-    // let num3 = 50
+//     let num1 = 5
+//     let num2 = 10
+//     let num3 = 50
 
-    // let media = (num1 + num2 + num3) / 3;
+//     let media = (num1 + num2 + num3) / 3;
 
-    // console.log("Sua média é: ", (media) )
+//     console.log("Sua média é: ", (media) )
 
-    //QUESTÃO 2
+//     QUESTÃO 2
 
 // let largura = Number(prompt("Digite a largura da parede em metros:"));
 // let altura = Number(prompt("Digite a altura da parede em metros:"));
@@ -96,7 +99,7 @@
 // let tinta = area * 2;
 
 // alert(`Área da parede: " + area + " m²`);
-// alert(`Quantidade de tinta necessária: " + tinta + " litros`);
+// alert(`Quantidade de tinta necessária: " + tinta + " litros`)
 
 // QUESTÃO 3
 
@@ -140,33 +143,33 @@
 
 //QUESTÃO 6
 
-alert("Cálculo de IMC (Indice de massa corporal)")
-let nome = prompt("Digite o nome do paciente:");
-let peso = Number(prompt("Digite o peso em kg:"));
-let altura = Number(prompt("Digite a altura em metros:"));
+// alert("Cálculo de IMC (Indice de massa corporal)")
+// let nome = prompt("Digite o nome do paciente:");
+// let peso = Number(prompt("Digite o peso em kg:"));
+// let altura = Number(prompt("Digite a altura em metros:"));
 
-let imc = peso / (altura * altura) * 10000;
+// let imc = peso / (altura * altura) * 10000;
 
-let risco;
+// let risco;
 
-if (imc < 20) {
-    risco = "Abaixo do peso";
+// if (imc < 20) {
+//     risco = "Abaixo do peso";
 
-} else if (imc >= 20 && imc < 25) {
-    risco = "Normal";
+// } else if (imc >= 20 && imc < 25) {
+//     risco = "Normal";
 
-} else if (imc >= 25 && imc < 30) {
-    risco = "Excesso de peso";
+// } else if (imc >= 25 && imc < 30) {
+//     risco = "Excesso de peso";
 
-} else if (imc >= 30 && imc < 35) {
-    risco = "Obesidade";
+// } else if (imc >= 30 && imc < 35) {
+//     risco = "Obesidade";
 
-} else {
-    risco = "Obesidade mórbida";
-}
+// } else {
+//     risco = "Obesidade mórbida";
+// }
 
-alert(
-    "Paciente: " + nome +
-    "\nIMC: " + imc.toFixed(2) +
-    "\nFaixa de risco: " + risco
-);
+// alert(
+//     "Paciente: " + nome +
+//     "\nIMC: " + imc.toFixed(2) +
+//     "\nFaixa de risco: " + risco
+// )
