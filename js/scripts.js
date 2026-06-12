@@ -81,13 +81,13 @@
 
 // QUESTÃO 1
 
-//     let num1 = 5
-//     let num2 = 10
-//     let num3 = 50
+    // let num1 = Number(prompt("qual o primeiro número?"))
+    // let num2 = Number(prompt("qual o segundo número?"))
+    // let num3 = Number(prompt("qual o terceiro número?"))
 
-//     let media = (num1 + num2 + num3) / 3;
+    // let media = ((num1 + num2 + num3) / 3);
 
-//     console.log("Sua média é: ", (media) )
+    // alert(`Sua média é: ${media}` )
 
 //     QUESTÃO 2
 
